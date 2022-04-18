@@ -282,3 +282,9 @@ ul.errorlist{
   font-style: italic;
   color: red;
 }
+.perfil img{
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 200px
+}
