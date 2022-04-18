@@ -1,0 +1,43 @@
+{% extends "PortafolioApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'PortafolioWebApp/img/otro.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Backend</span>
+            <span class="section-heading-lower">developer</span>
+          </h2>
+          <p class="mb-3">Portafolio de proyectos personal de Jhezuann Guanipa
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Descripción sobre la pagina</span>
+              </h2>
+              <p class="mb-0">Portafolio personal creado por Jhezuann Guanipa donde tienen apartados distintos entre esos el perfil donde pueden ver sus datos, portafolio donde ahi pueden encontrar algunos de sus proyectos y contacto donde pueden contactar con el mismo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock %}
